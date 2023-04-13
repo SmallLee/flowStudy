@@ -63,7 +63,6 @@ class Captcha @JvmOverloads constructor(
         fun onMaxFailed(): String?
     }
 
-
     init {
         val typedArray = context.obtainStyledAttributes(attrs, R.styleable.Captcha)
         drawableId = typedArray.getResourceId(R.styleable.Captcha_src, R.drawable.cat)
