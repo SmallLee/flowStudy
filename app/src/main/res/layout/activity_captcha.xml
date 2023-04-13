@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.module.captcha.Captcha
+        android:id="@+id/captCha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:blockSize="50dp"
+        app:max_fail_count="5"
+        app:mode="mode_bar"
+        app:src="@drawable/cat" />
+
+    <Button
+        android:id="@+id/btn_mode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="no slider mode" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="changeProgressDrawable"
+        android:text="change slider style" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="changePicture"
+        android:text="replace image" />
+
+</LinearLayout>

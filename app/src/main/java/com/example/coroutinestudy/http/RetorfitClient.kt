@@ -19,8 +19,8 @@ val retrofit: Retrofit by lazy {
 
 private fun getOkHttpClient(): OkHttpClient {
     val builder: OkHttpClient.Builder = OkHttpClient.Builder()
-        .readTimeout(30, TimeUnit.SECONDS) //设置读取超时时间
-        .writeTimeout(30, TimeUnit.SECONDS) //设置写的超时时间
+        .readTimeout(30, TimeUnit.SECONDS)
+        .writeTimeout(30, TimeUnit.SECONDS)
         .connectTimeout(30, TimeUnit.SECONDS)
     if (BuildConfig.DEBUG) {
         val httpLoggingInterceptor = HttpLoggingInterceptor()

@@ -3,7 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/po_seekbar1.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/thumb1.xml" value="0.151" />
+        <entry key="app/src/main/res/layout/activity_call_whats_app.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/layout/activity_captcha.xml" value="0.13645833333333332" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.37552083333333336" />
+        <entry key="module-captcha/src/main/res/drawable/container_backgroud.xml" value="0.3225" />
+        <entry key="module-captcha/src/main/res/drawable/po_seekbar.xml" value="0.202" />
+        <entry key="module-captcha/src/main/res/drawable/thumb.xml" value="0.3225" />
+        <entry key="module-captcha/src/main/res/layout/activity_main.xml" value="0.13645833333333332" />
+        <entry key="module-captcha/src/main/res/layout/container.xml" value="0.35833333333333334" />
       </map>
     </option>
   </component>
