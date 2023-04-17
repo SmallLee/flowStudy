@@ -2,6 +2,7 @@ package com.example.coroutinestudy;
 
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.media.MediaMetadataRetriever;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,7 +21,7 @@ public class CallWhatsAppActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 PackageManager packageManager = getPackageManager();
-                Intent launchIntent = packageManager.getLaunchIntentForPackage("com.metaloan");
+                Intent launchIntent = packageManager.getLaunchIntentForPackage("com.example.module_info");
                 startActivity(launchIntent);
             }
         });
