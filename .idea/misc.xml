@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
@@ -8,6 +7,7 @@
         <entry key="app/src/main/res/layout/activity_call_whats_app.xml" value="0.19010416666666666" />
         <entry key="app/src/main/res/layout/activity_captcha.xml" value="0.13645833333333332" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.37552083333333336" />
+        <entry key="app/src/main/res/layout/activity_main2.xml" value="0.20052083333333334" />
         <entry key="module-captcha/src/main/res/drawable/container_backgroud.xml" value="0.3225" />
         <entry key="module-captcha/src/main/res/drawable/po_seekbar.xml" value="0.202" />
         <entry key="module-captcha/src/main/res/drawable/thumb.xml" value="0.3225" />

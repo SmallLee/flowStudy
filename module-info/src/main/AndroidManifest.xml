@@ -18,9 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".InfoActivity">
+        <activity
+            android:name=".InfoActivity"
+            android:exported="true">
             <intent-filter>
-                <category android:name="android.intent.category.INFO"/>
+                <category android:name="android.intent.category.INFO" />
             </intent-filter>
         </activity>
     </application>

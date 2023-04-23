@@ -1,5 +1,6 @@
 package com.example.coroutinestudy
 
+import android.util.Log
 import androidx.arch.core.util.Function
 import androidx.lifecycle.*
 import kotlinx.coroutines.flow.catch
@@ -7,7 +8,13 @@ import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.flow.onCompletion
 import kotlinx.coroutines.flow.onStart
 
-class MainViewModel : ViewModel() {
+class MainViewModel(val savedStateHandle: SavedStateHandle) : ViewModel(),
+    DefaultLifecycleObserver {
+
+    override fun onCreate(owner: LifecycleOwner) {
+        super.onCreate(owner)
+        Log.d("========", "onCreate: " + savedStateHandle)
+    }
 
     val repository = MainRepository()
 

@@ -5,6 +5,8 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
 import android.util.AttributeSet
+import android.view.MotionEvent
+import android.view.ViewGroup
 import androidx.appcompat.widget.AppCompatSeekBar
 
 class TextSeekbar @JvmOverloads constructor(
@@ -13,6 +15,8 @@ class TextSeekbar @JvmOverloads constructor(
 ) : AppCompatSeekBar(context, attrs, defStyleAttr) {
 
     private var textPaint = Paint()
+
+    private var downTime = 0L
 
     init {
         splitTrack = false
@@ -23,6 +27,7 @@ class TextSeekbar @JvmOverloads constructor(
         textPaint.isAntiAlias = true
         textPaint.color = Color.parseColor("#545454")
     }
+
 
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
